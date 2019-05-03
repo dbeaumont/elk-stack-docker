@@ -1,3 +1,8 @@
+# on reste sur la syntaxe 2.1 car la syntaxe 3.7 est trop orientée pour swarm
+# En 3.7 il n'est plus possible de piloter finement la façon dont les containters se dépendent les uns des autres
+# depends_on ne permet plus de définit le health check à utiliser
+# KIBANA user/password: elastic/changeme
+---
 version: "2.1"
 services:
   # The environment variable "ELASTIC_VERSION" is used throughout this file to
