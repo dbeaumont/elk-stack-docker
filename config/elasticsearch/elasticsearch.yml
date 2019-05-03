@@ -2,3 +2,8 @@ cluster.name: full-stack-cluster
 node.name: node-1
 path.data: /usr/share/elasticsearch/data
 http.port: 9200
+
+# ELK 7 : les dashboards de Kibana imposent que la sécurité soit configurée pour les licences trial:
+# Security must be explicitly enabled when using a trial license. Enable security by setting [xpack.security.enabled] to [true] in the elasticsearch.yml file and restart the node."}]
+# MAIS : Security is available for free for a month, and then requires a paid Gold or Platinum licence. Contact the Elastic sales team to obtain one.
+# xpack.security.enabled: "true"
