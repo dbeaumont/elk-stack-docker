@@ -1,0 +1,8 @@
+https://www.nginx.com/blog/updating-gpg-key-nginx-products/
+https://forum.nginx.org/read.php?2,267655
+
+If you're using Debian/Ubuntu packages from nginx.org, you should
+re-fetch and add the updated key to the APT keyring:
+
+# wget https://nginx.org/keys/nginx_signing.key && apt-key add ../nginx_signing.key
+
